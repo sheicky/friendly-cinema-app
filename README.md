@@ -8,97 +8,89 @@
 
 ## 📋 Description
 
-Une application moderne construite avec Next.js 14, utilisant les dernières fonctionnalités et les meilleures pratiques de développement. Ce projet est optimisé pour la performance et suit une architecture robuste.
+A modern application built with Next.js 14, leveraging the latest features and development best practices. This project is optimized for performance and follows a robust architecture.
 
-## ✨ Fonctionnalités
+## ✨ Features
 
-- ⚡️ **Next.js 14** avec App Router
-- 🎨 **Styling moderne** avec TailwindCSS
-- 📱 **Responsive Design** pour tous les appareils
-- 🔤 **Police Geist** optimisée par next/font
-- 🛠 **TypeScript** pour un code plus sûr
-- 🗃 **Prisma** pour la gestion de la base de données
+- ⚡️ **Next.js 14** with App Router
+- 🎨 **Modern Styling** with TailwindCSS
+- 📱 **Responsive Design** for all devices
+- 🔤 **Geist Font** optimized by next/font
+- 🛠 **TypeScript** for safer code
+- 🗃 **Prisma** for database management
 
-## 🚀 Démarrage Rapide
+## 🚀 Quick Start
 
-1. **Clonez le repository**
+1. **Clone the repository**
 ```bash
-git clone <votre-repo-url>
-cd <nom-du-projet>
+git clone <your-repo-url>
+cd <project-name>
 ```
 
-2. **Installez les dépendances**
+2. **Install dependencies**
 ```bash
 npm install
-# ou
+# or
 yarn install
-# ou
+# or
 pnpm install
 ```
 
-3. **Initialisez et synchronisez la base de données**
+3. **Initialize and sync database**
 ```bash
-# Générer les tables de la base de données
+# Generate database tables
 npx prisma db push
 
-# Générer le client Prisma
+# Generate Prisma client
 npx prisma generate
 
-# Lancer l'interface Prisma Studio
+# Launch Prisma Studio interface
 npx prisma studio
 ```
-Ouvrez [http://localhost:5555](http://localhost:5555) pour accéder à l'interface Prisma Studio.
+Open [http://localhost:5555](http://localhost:5555) to access Prisma Studio interface.
 
-4. **Lancez le serveur de développement**
+4. **Start the development server**
 ```bash
 npm run dev
-# ou
+# or
 yarn dev
-# ou
+# or
 pnpm dev
 ```
 
-Ouvrez [http://localhost:3000](http://localhost:3000) dans votre navigateur pour voir l'application.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
 ## 🔧 Configuration
 
-Le projet utilise plusieurs outils et technologies :
+The project uses several tools and technologies:
 
-- [Next.js](https://nextjs.org/) - Framework React
-- [TypeScript](https://www.typescriptlang.org/) - Typage statique
-- [Prisma](https://www.prisma.io/) - ORM moderne
-- [TailwindCSS](https://tailwindcss.com/) - Framework CSS utilitaire
+- [Next.js](https://nextjs.org/) - React Framework
+- [TypeScript](https://www.typescriptlang.org/) - Static Typing
+- [Prisma](https://www.prisma.io/) - Modern ORM
+- [TailwindCSS](https://tailwindcss.com/) - Utility-first CSS Framework
 
-## 📚 Structure du Projet
+## 📚 Project Structure
 
 ```
 ├── src/
 │   ├── app/          # App Router pages
-│   ├── components/   # Composants réutilisables
-│   ├── lib/         # Utilitaires et configurations
-│   └── styles/      # Styles globaux
-├── prisma/          # Configuration Prisma
-├── public/          # Assets statiques
+│   ├── components/   # Reusable components
+│   ├── lib/         # Utilities and configurations
+│   └── styles/      # Global styles
+├── prisma/          # Prisma configuration
+├── public/          # Static assets
 └── ...
 ```
 
 ## 📖 Documentation
 
-Pour en savoir plus sur les technologies utilisées :
+To learn more about the technologies used:
 
-- [Documentation Next.js](https://nextjs.org/docs)
-- [Documentation Prisma](https://www.prisma.io/docs)
-- [Guide TypeScript](https://www.typescriptlang.org/docs/)
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Prisma Documentation](https://www.prisma.io/docs)
+- [TypeScript Guide](https://www.typescriptlang.org/docs/)
 
-## 🚀 Déploiement
 
-Le moyen le plus simple de déployer cette application est d'utiliser la [Plateforme Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
-
-[![Déployer avec Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/packages/create-next-app)
-
-## 📝 Licence
-
-Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 
 ---
 
