@@ -1,36 +1,107 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Next.js Modern Application
 
-## Getting Started
+<div align="center">
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma" />
+</div>
 
-First, run the development server:
+## 📋 Description
 
+Une application moderne construite avec Next.js 14, utilisant les dernières fonctionnalités et les meilleures pratiques de développement. Ce projet est optimisé pour la performance et suit une architecture robuste.
+
+## ✨ Fonctionnalités
+
+- ⚡️ **Next.js 14** avec App Router
+- 🎨 **Styling moderne** avec TailwindCSS
+- 📱 **Responsive Design** pour tous les appareils
+- 🔤 **Police Geist** optimisée par next/font
+- 🛠 **TypeScript** pour un code plus sûr
+- 🗃 **Prisma** pour la gestion de la base de données
+
+## 🚀 Démarrage Rapide
+
+1. **Clonez le repository**
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <votre-repo-url>
+cd <nom-du-projet>
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Installez les dépendances**
+```bash
+npm install
+# ou
+yarn install
+# ou
+pnpm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. **Initialisez et synchronisez la base de données**
+```bash
+# Générer les tables de la base de données
+npx prisma db push
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Générer le client Prisma
+npx prisma generate
 
-## Learn More
+# Lancer l'interface Prisma Studio
+npx prisma studio
+```
+Ouvrez [http://localhost:5555](http://localhost:5555) pour accéder à l'interface Prisma Studio.
 
-To learn more about Next.js, take a look at the following resources:
+4. **Lancez le serveur de développement**
+```bash
+npm run dev
+# ou
+yarn dev
+# ou
+pnpm dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Ouvrez [http://localhost:3000](http://localhost:3000) dans votre navigateur pour voir l'application.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🔧 Configuration
 
-## Deploy on Vercel
+Le projet utilise plusieurs outils et technologies :
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [Next.js](https://nextjs.org/) - Framework React
+- [TypeScript](https://www.typescriptlang.org/) - Typage statique
+- [Prisma](https://www.prisma.io/) - ORM moderne
+- [TailwindCSS](https://tailwindcss.com/) - Framework CSS utilitaire
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📚 Structure du Projet
+
+```
+├── src/
+│   ├── app/          # App Router pages
+│   ├── components/   # Composants réutilisables
+│   ├── lib/         # Utilitaires et configurations
+│   └── styles/      # Styles globaux
+├── prisma/          # Configuration Prisma
+├── public/          # Assets statiques
+└── ...
+```
+
+## 📖 Documentation
+
+Pour en savoir plus sur les technologies utilisées :
+
+- [Documentation Next.js](https://nextjs.org/docs)
+- [Documentation Prisma](https://www.prisma.io/docs)
+- [Guide TypeScript](https://www.typescriptlang.org/docs/)
+
+## 🚀 Déploiement
+
+Le moyen le plus simple de déployer cette application est d'utiliser la [Plateforme Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
+
+[![Déployer avec Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/packages/create-next-app)
+
+## 📝 Licence
+
+Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
+
+---
+
+<div align="center">
+  <sub>Built with ❤️ by Sheick</sub>
+</div>
