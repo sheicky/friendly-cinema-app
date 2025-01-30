@@ -26,8 +26,8 @@ A modern application built with Next.js 14, leveraging the latest features and d
 
 1. **Clone the repository**
 ```bash
-git clone <your-repo-url>
-cd <project-name>
+git clone https://github.com/sheicky/friendly-cinema-app.git
+cd friendly-cinema-app
 ```
 
 2. **Install dependencies**
