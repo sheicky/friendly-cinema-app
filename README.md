@@ -6,6 +6,9 @@
   <img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma" />
 </div>
 
+![image](https://github.com/user-attachments/assets/72df1ea8-0f88-4d86-a86a-47988b3a0345)
+
+
 ## 📋 Description
 
 A modern application built with Next.js 14, leveraging the latest features and development best practices. This project is optimized for performance and follows a robust architecture.
